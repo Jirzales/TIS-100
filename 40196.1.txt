@@ -1,0 +1,45 @@
+@0
+
+
+@1
+ST: MOV UP ACC
+MOV 0 RIGHT
+JNZ ST
+
+ONE: MOV UP ACC
+MOV 0 RIGHT
+JNZ ST
+
+TWO: MOV UP ACC
+JEZ SIG
+MOV 0 RIGHT
+JNZ ST
+SIG: MOV 1 RIGHT
+JMP TWO
+
+@2
+MOV LEFT DOWN
+
+@3
+
+
+@4
+
+
+@5
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP DOWN
+
+@10
+
